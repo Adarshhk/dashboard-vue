@@ -1,16 +1,16 @@
 <script setup>
 
-
-
 import { RouterView } from 'vue-router';
+import Dashboard from './components/dashboard.vue';
+Dashboard
 
 </script>
 
 
 <template>
-  <RouterView/>
+ 
+ <Dashboard/>
 </template>
 
 <style scoped>
-
 </style>

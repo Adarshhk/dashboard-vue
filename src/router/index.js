@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import MyStrategies from "../Views/MyStrategies.vue";
-import Home from "../Views/Home.vue";
-import Orders from "../Views/Orders.vue";
-import Position from "../Views/Position.vue";
-import Videos from "../Views/Videos.vue";
-import Brokers from "../Views/Brokers.vue";
+import MyStrategies from "../Views/mystrategies/MyStrategies.vue";
+import Home from "../Views/dashboard/Home.vue";
+import Orders from "../Views/orders/Orders.vue";
+import Position from "../Views/position/Position.vue";
+import Videos from "../Views/videos/Videos.vue";
+import Brokers from "../Views/broker/Brokers.vue";
 
 export const router = createRouter({
     history : createWebHistory(),
